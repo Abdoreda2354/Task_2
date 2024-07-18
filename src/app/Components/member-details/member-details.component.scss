@@ -1,0 +1,34 @@
+.member-details {
+    margin-top: 50px;
+    background-color: #35373a;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+main {
+    background-color: #222629;
+    min-height: 100vh;
+    overflow: auto;
+    color: #ccc;
+
+}
+nav{
+    background-color: #35373a!important;
+}
+.navbar-brand{
+color: #ccc;
+}
+.navbar-expand-lg .navbar-collapse {
+
+    justify-content: end;
+}
+.name{
+ color: #86c232;   
+}

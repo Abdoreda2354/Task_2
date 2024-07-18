@@ -1,0 +1,143 @@
+main {
+    background-color: #222629;
+    min-height: 100vh;
+    overflow: auto;
+
+}
+nav{
+    background-color: #35373a!important;
+}
+.navbar-brand{
+color: #ccc;
+}
+.navbar-expand-lg .navbar-collapse {
+
+    justify-content: end;
+}
+input:focus{
+    border: 2px solid #86c232;
+    box-shadow: none;
+}
+.img {
+    width: 170px !important;
+    height: 170px !important;
+    border-radius: 50% !important;
+    position: absolute;
+    top: -75px;
+    border: 5px solid #86c232;
+}
+
+.data {
+    height: 20vh;
+    margin-top: 120px !important;
+    margin-bottom: 30px;
+}
+
+.data h2 {
+    color: #86c232;
+    font-size: 1.8rem;
+}
+
+.container-fluid {
+    margin-top: 100px;
+}
+
+.card {
+    min-height: 50vh !important;
+    border-radius: 20px;
+    color: #e4e3e3de;
+    background-color: #35373a;
+    cursor: pointer;
+}
+
+.card ul {
+    justify-content: center;
+    align-items: center;
+}
+
+.card ul li {
+    background-color: #86c232;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #222629;
+}
+
+.card ul li i {
+    font-size: 25px;
+}
+
+.card ul li:hover {
+    background-color: transparent;
+    border: 2px solid #86c232;
+    color: #ccc;
+}
+
+.footer {
+    margin-top: 38px;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #86c23295 !important;
+    padding: 5px;
+}
+.footer p{
+    margin-top: 5px!important;
+
+}
+.gy-5 {
+    --bs-gutter-y: 10rem;
+}
+// .gx-5 {
+//     --bs-gutter-x: 2rem;
+// }
+
+::ng-deep .ngx-pagination {
+    margin-top: 30px;
+  }
+  
+  ::ng-deep .ngx-pagination .current {
+    padding: .1875rem .625rem !important;
+    background: #86c23295 !important;
+    color: #fefefe !important;
+    cursor: default !important;
+    border-radius: 30px !important;
+  }
+  
+  ::ng-deep .ngx-pagination a:hover {
+    border-radius: 30px !important;
+    color: #eee!important;
+    background: #86c23295 !important;
+    
+
+  }
+  ::ng-deep .ngx-pagination a{
+    color: #ccc!important;
+  }
+  ::ng-deep .ngx-pagination {
+     margin-bottom: 0!important; 
+     padding: 30px;
+}
+ button{
+    background-color: #86c23295; color: #fff;
+    width: 15%;
+    padding: 0px;
+    margin-right: 8px;
+}
+
+button:hover{
+    background-color: #86c232bc;
+    color: #fff;
+}
+
+@media (max-width: 755.98px) {
+button{
+    width: 30%;
+}
+}
